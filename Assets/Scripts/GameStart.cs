@@ -20,6 +20,7 @@ public class GameStart : MonoBehaviour
     public Transform Txt_Up;
     public Transform Txt_Down;
     public AudioClip Audio_Key;
+    public AudioClip Audio_Key_Up;
     public AudioSource audioSource;
     public FirstPersonController fpc;
     public bool IsCanCtrl = false;

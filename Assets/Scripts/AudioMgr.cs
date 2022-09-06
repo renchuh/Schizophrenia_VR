@@ -32,9 +32,9 @@ public class AudioMgr : MonoBehaviour
     private IEnumerator AudioPlayFinished(float time, UnityAction callback)
     {   
         yield return new WaitForSeconds(time);
-        //声音播放完毕后之下往下的代码  
-        # region   声音播放完成后执行的代码
-        print("声音播放完毕，继续向下执行"); 
+        //聲音播放之後往下的程式碼  
+        # region   
+        print("聲音播放完畢"); 
         callback?.Invoke();
         #endregion
     }
